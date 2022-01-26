@@ -2,5 +2,5 @@
     <string name="app_name">askh_avto</string>
     <string name="start1">ИГРАТЬ</string>
     <string name="start2">ОЦЕНИТЬ</string>
-    <string name="start3">ВЫХОД</string>
+    <string name="back1">Назад</string>
 </resources>
