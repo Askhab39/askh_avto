@@ -8,8 +8,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private long backPressetTime;
+    private Toast backToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,4 +37,22 @@ public class MainActivity extends AppCompatActivity {
         });
         //конец конструкции
     }
+    //Системная кнопка НАЗАД - начало
+
+    @Override
+    public void onBackPressed() {
+
+        if (backPressetTime + 2000 > System.currentTimeMillis()) {
+            backToast.cancel();
+            super.onBackPressed();
+            return;
+        }else {
+            backToast = Toast.makeText(getBaseContext(), "Нажмите еще раз, чтобы выйти", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+
+        backPressetTime = System.currentTimeMillis();
+    }
+
+    //Системная кнопка НАЗАД - конец
 }
