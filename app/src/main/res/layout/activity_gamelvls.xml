@@ -63,7 +63,7 @@
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:layout_marginRight="15dp"
-                            android:background="@drawable/style_btn3"
+                            android:background="@drawable/btn_gamelvls"
                             android:gravity="center"
                             android:text="1"
                             android:textColor="@color/white"

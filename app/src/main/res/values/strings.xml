@@ -3,4 +3,5 @@
     <string name="start1">ИГРАТЬ</string>
     <string name="start2">ОЦЕНИТЬ</string>
     <string name="back1">Назад</string>
+    <string name="level1">Уровень:</string>
 </resources>

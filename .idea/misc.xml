@@ -8,12 +8,18 @@
         <entry key="app/src/main/res/drawable/btn1.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_gamelvls.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/style_btn3.xml" value="0.371875" />
+        <entry key="app/src/main/res/drawable/style_img_universal.xml" value="0.3435" />
+        <entry key="app/src/main/res/drawable/style_points.xml" value="0.3215" />
         <entry key="app/src/main/res/drawable/stylebtn1.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/stylebtn2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/stylebtn_1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-large/universal.xml" value="0.2324561403508772" />
+        <entry key="app/src/main/res/layout-normal/universal.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout-small/universal.xml" value="1.394736842105263" />
         <entry key="app/src/main/res/layout/activity_gamelvls.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/gamelevels.xml" value="0.2667572463768116" />
+        <entry key="app/src/main/res/layout/universal.xml" value="0.33" />
       </map>
     </option>
   </component>

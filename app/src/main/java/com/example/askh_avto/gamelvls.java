@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.logging.Level;
 
 public class gamelvls extends AppCompatActivity {
 
@@ -37,6 +40,23 @@ public class gamelvls extends AppCompatActivity {
                 //конец конструкции
             }
         });
+
+        //Кнопка для перехода на 1 ур - начало
+        TextView textView1 = (TextView)findViewById(R.id.textView1);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(gamelvls.this, Lvl1.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e) {
+                    //пусто
+                }
+
+            }
+        });
+        //Кнопка для перехода на 1 ур - конец
     }
     //Системная кнопка "Назад" - начало
     @Override
