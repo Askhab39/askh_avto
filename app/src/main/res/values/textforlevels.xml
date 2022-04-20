@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lvl1text0">Алжир</string>
+    <string name="lvl1text1">Казахстан</string>
+    <string name="lvl1text2">Аргентина</string>
+    <string name="lvl1text3">Индия</string>
+    <string name="lvl1text4">Австралия</string>
+    <string name="lvl1text5">Бразилия</string>
+    <string name="lvl1text6">Китай</string>
+    <string name="lvl1text7">США</string>
+    <string name="lvl1text8">Канада</string>
+    <string name="lvl1text9">Россия</string>
+</resources>
